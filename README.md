@@ -5,7 +5,7 @@ This project would not have been possible without this [@pbassiner](https://gith
 
 ### aim: multiple jars in a single folder/project
 
-My goal was to create multiple thin jars in a single folder.  It was necessary to break each function out into its own module/folder.  This example has 8 methods written by [@edwardreed1](https://github.com/EdwardReed1) for our [project 2](https://github.com/EdwardReed1/revature_project_2).  
+My goal was to create multiple thin jars in a single folder.  It was necessary to break each function out into its own module/folder.  This example has 8 methods written by [@edwardreed1](https://github.com/EdwardReed1) for our Revature [project 2](https://github.com/EdwardReed1/revature_project_2).  
 
 They are:
 - findAverageRank
