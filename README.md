@@ -18,6 +18,8 @@ They are:
 
 Instructions for using the methods and the method signatures are available in `Jar_instructions.md`.
 
+To generate your own jars, open in Intellij, open sbt shell, `clean`, `compile`, `package`.  Delete the old jars if you want to make sure they're really generating.
+
 Each of these functions are in their own module folder, with a full stack of directories to the `fcn.scala` file.  (e.g. `fcn/src/main/scala/fcn/fcn.scala`).  Part of the trouble I had was that I put the files directly in `fcn/src/fcn.scala` and after the jar was created Google DataProc was giving me a "main class" not found exception.
 
 The other part of the puzzle was the `build.sbt` file and using the `.aggregate` method to make the `./src/main/scala/simplified/Trending/root.scala` dependent on all the other methods.  I added other functionality I learned from Pol Bassiner's example.  This includes adding the `wartremover` plugin in `./project/plugins.sbt`.  I also added some Google cloud dependencies because I was testing these jars on Google Cloud DataProc.
