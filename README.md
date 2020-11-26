@@ -1,0 +1,1 @@
+# intellij_sbt_multi_jar_project
