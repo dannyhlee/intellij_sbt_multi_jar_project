@@ -1,0 +1,13 @@
+*.class
+*.log
+
+/.bsp/
+/.idea/
+**/streams/**
+**/scala-2.11/classes/**
+**/scala-2.11/update/**
+/project/project
+/project/target
+
+
+
