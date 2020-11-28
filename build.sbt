@@ -20,8 +20,8 @@ lazy val root = project
     trendTracker
   )
 
-// intellij alt-j provides sublime text style multiple selections
-// highlight a selection and hit alt-j to add the next occurrence
+// Sub-Projects
+// hint: intellij alt-j provides sublime text style multiple selections highlight a selection and hit alt-j to add the next occurrence
 lazy val findAverageRank = project.settings(name := "findAverageRank")
 lazy val findHighestRank = project.settings(name := "findHighestRank")
 lazy val findHoursTrending = project.settings(name := "findHoursTrending")
